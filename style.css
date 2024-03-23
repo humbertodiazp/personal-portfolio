@@ -176,6 +176,12 @@ section {
   margin: auto 0;
 }
 
+img {
+  border-radius: 30%;
+  
+
+}
+
 .section__text {
   align-self: center;
   text-align: center;
@@ -295,7 +301,7 @@ section {
 
 .details-container {
   padding: 1.5rem;
-  flex: 1;
+  flex: 1;  
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -335,18 +341,23 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
+  text-align: left;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 article {
   display: flex;
+  align-items: left;
   width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;
+}
+
+article p {
+  color: #faf8f8;
 }
 
 article .icon {
